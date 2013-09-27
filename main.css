@@ -1,0 +1,89 @@
+body{
+	background-color: white;
+}
+
+.sideDecoration{
+	float: left;
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 200px;
+	height: 100%;
+	position: relative;
+}
+
+.magicianImage{
+	height: 40px;
+	width: 30px;
+	position: absolute;
+	margin-top: 10px;
+}
+
+.question{
+	font-size: 40px;
+	margin-left: 425px;
+	margin-top: 100px;
+	color: #68838B;
+	font-family: "Papyrus", Georgia, cursive;
+}
+
+.guessBox{
+	margin-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 110px;
+	width: 300px;
+	background-color: #6D75AD;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-color: white;
+	border-style: solid 2px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#userGuess{
+	margin-top:25px;
+	margin-left: 115px;
+	height: 30px;
+	width: 80px;
+	margin-right: auto;
+	font-family: "Papyrus", Georgia, cursive;
+	font-size: 14px;
+	text-align: center;
+	border-radius: 2px;
+	border-style: solid 2px;
+
+}
+
+.guessButton{
+	height: 27px;
+	width: 70px;
+	background-color: #68838B;
+	margin-top: 10px;
+	margin-left: 120px;
+	text-align: center;
+	padding-top: 5px;
+	border-radius: 2px;
+	font-family: "Papyrus", Georgia, cursive;
+	cursor: pointer;
+}
+
+.guessButton:hover{
+	background-color: yellow;
+}
+
+.guessFeedback{
+	display:none;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	width: 300px;
+	background-color: #68838B;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: center;
+	font-family: "Papyrus", Georgia, cursive;
+	padding-top: 10px;
+	border-color: white;
+	border-style: solid;
+}
